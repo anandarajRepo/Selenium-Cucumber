@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T18:55:19.936Z",
+        "line": 4,
+        "name": "Login as a authenticated user",
+        "description": "",
+        "id": "login-feature;login-as-a-authenticated-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17924335800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is  on homepage",
+            "match": {
+              "location": "seleniumgluecode.test.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10651796500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to Login Page",
+            "match": {
+              "location": "seleniumgluecode.test.user_navigates_to_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14070046500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and Password",
+            "match": {
+              "location": "seleniumgluecode.test.user_enters_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1525110000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "success message is displayed",
+            "match": {
+              "location": "seleniumgluecode.test.success_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "  Verify if user is able to Login in to the site",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/test.feature",
+    "tags": []
+  }
+]
